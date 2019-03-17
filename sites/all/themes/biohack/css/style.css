@@ -24,3 +24,8 @@ h1.header__site-name span {
   font-weight: bold;
   font-size: 0.8em;
 }
+
+.field-name-field-video {
+  float: left;
+  margin-right: 50px;
+}

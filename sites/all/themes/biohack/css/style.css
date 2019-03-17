@@ -1,3 +1,26 @@
 body {
 	background: #f38e03;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+h1.header__site-name span {
+	font-weight: bold;
+	color: #fff;
+	background: #d40400;
+	padding: 4px 10px;
+}
+
+.node-article h2 a {
+	color: #fff;
+	text-decoration: none;
+	background: #000;
+	padding: 4px 10px;
+}
+
+.field-name-field-tags a {
+  text-transform: uppercase;
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8em;
 }

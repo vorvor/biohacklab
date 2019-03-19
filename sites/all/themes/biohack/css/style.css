@@ -3,6 +3,15 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 }
 
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
 h1.header__site-name span {
 	font-weight: bold;
 	color: #fff;
@@ -40,3 +49,31 @@ h1.header__site-name span {
 	height: 50px;
 	padding: 6px 0 0 0;
 }
+
+.field-name-field-image .field-item {
+  float: left;
+  margin-right: 10px;
+}
+
+.field-name-body {
+	clear: both;
+}
+
+@media only screen 
+    and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait),
+only screen
+    and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: landscape) {
+        body {
+
+        }
+
+        .field-name-field-video {
+        	float: none;
+        	width: 100%;
+        }
+        .field-name-field-video img {
+        	max-width: 100%;
+        	width: 100%;
+        }
+}
+

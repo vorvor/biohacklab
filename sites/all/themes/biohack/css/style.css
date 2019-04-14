@@ -55,10 +55,6 @@ h1.header__site-name span {
   margin-right: 10px;
 }
 
-.field-name-body {
-	clear: both;
-}
-
 @media only screen 
     and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait),
 only screen
@@ -75,5 +71,9 @@ only screen
         	max-width: 100%;
         	width: 100%;
         }
+
+        .field-name-body {
+			clear: both;
+		}
 }
 
